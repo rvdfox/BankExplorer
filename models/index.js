@@ -2,7 +2,7 @@ if (!global.hasOwnProperty('db')) {
 	var Sequelize = require('sequelize')
 		, sequelize = null
 
-	process.env.DATABASE_URL = 'postgres://zldhvzgguaeptd:b5e31084d5a5e1a1d98232dc45858248052798a95da13cca6b4680d8c490b7cf@ec2-54-75-224-168.eu-west-1.compute.amazonaws.com:5432/d19aduk9psifpe?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory';
+	// process.env.DATABASE_URL = 'postgres://zldhvzgguaeptd:b5e31084d5a5e1a1d98232dc45858248052798a95da13cca6b4680d8c490b7cf@ec2-54-75-224-168.eu-west-1.compute.amazonaws.com:5432/d19aduk9psifpe?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory';
 
 	if (process.env.DATABASE_URL) {
 		// the application is executed on Heroku ... use the postgres database
